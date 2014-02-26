@@ -65,7 +65,7 @@ public class PartTwo {
             }
         };
 
-         final File dataDir = new File("~/data/cassandra-test-dataset/");
+         final File dataDir = new File("/my/");
         // 1,352,794,346 lines, 13050324662bytes (13G), md5sum=b7089321366fe6f8131196b81d060c5d
         // first line: 34600 [30/Apr/1998:21:30:17 +0000] "GET /images/hm_bg.jpg HTTP/1.0" 200 24736
         // last line:  515626 [26/Jul/1998:21:59:55 +0000] "GET /english/images/team_hm_header.gif HTTP/1.1" 200 763
