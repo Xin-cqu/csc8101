@@ -12,7 +12,7 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
- */
+*/
 package uk.ac.ncl.cs.csc8101.weblogcoursework;
 
 import com.datastax.driver.core.*;
@@ -26,11 +26,11 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 /**
- * Simple integration tests for cassandra server v2 / CQL3 via datastax java-driver
- *
- * @author Jonathan Halliday (jonathan.halliday@redhat.com)
- * @since 2014-01
- */
+* Simple integration tests for cassandra server v2 / CQL3 via datastax java-driver
+*
+* @author Jonathan Halliday (jonathan.halliday@redhat.com)
+* @since 2014-01
+*/
 public class CassandraBasicIT {
 
     private static Cluster cluster;
