@@ -71,7 +71,7 @@ public class PartTwo {
         // last line:  515626 [26/Jul/1998:21:59:55 +0000] "GET /english/images/team_hm_header.gif HTTP/1.1" 200 763
 
 
-         final File logFile = new File(dataDir, "CSC8101-logfile.gz");
+         final File logFile = new File(dataDir, "loglite");
 
         final DateFormat dateFormat = new SimpleDateFormat("[dd/MMM/yyyy:HH:mm:ss z]");
 
@@ -81,8 +81,8 @@ public class PartTwo {
 
         try (
                 final FileInputStream fileInputStream = new FileInputStream(logFile);
-                final GZIPInputStream gzipInputStream = new GZIPInputStream(fileInputStream);
-                final InputStreamReader inputStreamReader = new InputStreamReader(gzipInputStream);
+                //final GZIPInputStream gzipInputStream = new GZIPInputStream(fileInputStream);
+                final InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
                 final BufferedReader bufferedReader = new BufferedReader(inputStreamReader)
         ) {
             String line =null;
