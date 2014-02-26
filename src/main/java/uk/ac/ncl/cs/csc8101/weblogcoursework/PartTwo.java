@@ -30,7 +30,7 @@ public class PartTwo {
     public static void staticSetup() {
 
         cluster = new Cluster.Builder()
-                .addContactPoint("127.0.0.1")
+                .addContactPoint("54.72.29.193")
                 .build();
 
         final Session bootstrapSession = cluster.connect();
