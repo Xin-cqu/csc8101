@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5979f134-eb13-450b-8957-78c222ed392c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/InsertIntoDatabase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/PartTwo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/ReadBuffer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/SiteSession.java" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/SiteSession.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/PartTwo.java" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/PartTwo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weblogcoursework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,53 +68,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SiteSession.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/SiteSession.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="0" selection-start="2844" selection-end="2844" vertical-scroll-proportion="0.0" vertical-offset="542" max-vertical-offset="2037">
-              <folding>
-                <element signature="e#3262#3263#0" expanded="true" />
-                <element signature="e#3306#3307#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PartTwo.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PartTwo.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/PartTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="22" selection-start="5119" selection-end="5119" vertical-scroll-proportion="1.1971831" vertical-offset="1353" max-vertical-offset="2982">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1996#2712#0" expanded="true" />
-                <element signature="e#2701#2702#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataReaderTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/uk/ac/ncl/cs/csc8101/weblogcoursework/DataReaderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="12" selection-start="2374" selection-end="2403" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SiteSessionTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/uk/ac/ncl/cs/csc8101/weblogcoursework/SiteSessionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="8" selection-start="1785" selection-end="2250" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="1323">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PartOne.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/PartOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="78" selection-start="1375" selection-end="1445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1134">
+            <state line="29" column="23" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="2140" max-vertical-offset="3003">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,16 +82,7 @@
       <file leaf-file-name="ReadBuffer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/ReadBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="38" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1344">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertIntoDatabase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/InsertIntoDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1113">
+            <state line="33" column="74" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="1344">
               <folding />
             </state>
           </provider>
@@ -145,10 +91,26 @@
       <file leaf-file-name="test.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="28" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CassandraBasicIT.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/uk/ac/ncl/cs/csc8101/weblogcoursework/CassandraBasicIT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="22" selection-start="2401" selection-end="2401" vertical-scroll-proportion="0.0" vertical-offset="758" max-vertical-offset="2037">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.35958904" vertical-offset="0" max-vertical-offset="876">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/SiteSession.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/PartTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/main.java" />
       </list>
     </option>
   </component>
@@ -297,6 +260,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weblogcoursework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -369,16 +342,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weblogcoursework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -438,7 +401,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -816,21 +779,25 @@
       <workItem from="1392120602544" duration="704000" />
       <workItem from="1392298655739" duration="9113000" />
       <workItem from="1392826893573" duration="6064000" />
+      <workItem from="1393333049529" duration="44000" />
+      <workItem from="1393342032588" duration="12000" />
+      <workItem from="1393425445863" duration="1194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26092000" />
+    <option name="totallyTimeSpent" value="27342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="2497" height="1444" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -839,19 +806,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3377877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3377877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -875,13 +841,103 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/uk/ac/ncl/cs/csc8101/weblogcoursework/SiteSessionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="8" selection-start="1785" selection-end="2250" vertical-scroll-proportion="0.0" vertical-offset="1281" max-vertical-offset="1827">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/PartOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="78" selection-start="1375" selection-end="1445" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/ReadBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="38" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/InsertIntoDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="28" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/SiteSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="0" selection-start="2844" selection-end="2844" vertical-scroll-proportion="0.0" vertical-offset="2016" max-vertical-offset="2583">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/PartTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="22" selection-start="5119" selection-end="5119" vertical-scroll-proportion="0.0" vertical-offset="2373" max-vertical-offset="2982">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/uk/ac/ncl/cs/csc8101/weblogcoursework/DataReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="12" selection-start="2374" selection-end="2403" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="1491">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/uk/ac/ncl/cs/csc8101/weblogcoursework/SiteSessionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="8" selection-start="1785" selection-end="2250" vertical-scroll-proportion="0.0" vertical-offset="1281" max-vertical-offset="1827">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/PartOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="78" selection-start="1375" selection-end="1445" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/ReadBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="38" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/InsertIntoDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="28" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/SiteSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="95" column="5" selection-start="2843" selection-end="2843" vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="2520">
-          <folding>
-            <element signature="e#3262#3263#0" expanded="true" />
-            <element signature="e#3306#3307#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -923,28 +979,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="1" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="630">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/PartOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="0" selection-end="1933" vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="1134">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/SiteSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="82" column="0" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.0" vertical-offset="1722" max-vertical-offset="2520">
-          <folding>
-            <element signature="e#3262#3263#0" expanded="true" />
-            <element signature="e#3306#3307#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -972,18 +1021,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/PartOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="43" selection-start="352" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1134">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="483">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,10 +1049,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/SiteSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="82" column="0" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.0" vertical-offset="1722" max-vertical-offset="2520">
-          <folding>
-            <element signature="e#3262#3263#0" expanded="true" />
-            <element signature="e#3306#3307#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,18 +1077,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/PartOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="5" selection-start="1451" selection-end="1451" vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="1134">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="25" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="483">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1088,39 +1126,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/uk/ac/ncl/cs/csc8101/weblogcoursework/CassandraBasicIT.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/uk/ac/ncl/cs/csc8101/weblogcoursework/SiteSessionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="73" selection-start="2129" selection-end="2129" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="2037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/PartOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="78" selection-start="1375" selection-end="1445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1134">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/ReadBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="38" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1344">
+        <state line="61" column="8" selection-start="1785" selection-end="2250" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="1323">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/uk/ac/ncl/cs/csc8101/weblogcoursework/DataReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="12" selection-start="2374" selection-end="2403" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/uk/ac/ncl/cs/csc8101/weblogcoursework/SiteSessionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="8" selection-start="1785" selection-end="2250" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="1323">
+        <state line="62" column="9" selection-start="2492" selection-end="2492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
           <folding />
         </state>
       </provider>
@@ -1135,30 +1150,51 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/SiteSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="96" column="0" selection-start="2844" selection-end="2844" vertical-scroll-proportion="0.0" vertical-offset="542" max-vertical-offset="2037">
-          <folding>
-            <element signature="e#3262#3263#0" expanded="true" />
-            <element signature="e#3306#3307#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/PartOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="38" selection-start="355" selection-end="355" vertical-scroll-proportion="0.23863636" vertical-offset="0" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/ReadBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="74" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="1344">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/uk/ac/ncl/cs/csc8101/weblogcoursework/CassandraBasicIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="22" selection-start="2401" selection-end="2401" vertical-scroll-proportion="0.0" vertical-offset="758" max-vertical-offset="2037">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
+        <state line="0" column="0" selection-start="0" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/PartTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="23" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="2140" max-vertical-offset="3003">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/PartTwo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ncl/cs/csc8101/weblogcoursework/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="22" selection-start="5119" selection-end="5119" vertical-scroll-proportion="1.1971831" vertical-offset="1353" max-vertical-offset="2982">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1996#2712#0" expanded="true" />
-            <element signature="e#2701#2702#0" expanded="true" />
-          </folding>
+        <state line="18" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.35958904" vertical-offset="0" max-vertical-offset="876">
+          <folding />
         </state>
       </provider>
     </entry>

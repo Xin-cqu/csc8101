@@ -13,6 +13,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.zip.GZIPInputStream;
 
 /**
  * Created by xwen on 2/19/14.
@@ -64,11 +65,13 @@ public class PartTwo {
             }
         };
 
-         final File dataDir = new File("/home/xwen/Downloads");
+         final File dataDir = new File("/data/cassandra-test-dataset");
         // 1,352,794,346 lines, 13050324662bytes (13G), md5sum=b7089321366fe6f8131196b81d060c5d
         // first line: 34600 [30/Apr/1998:21:30:17 +0000] "GET /images/hm_bg.jpg HTTP/1.0" 200 24736
         // last line:  515626 [26/Jul/1998:21:59:55 +0000] "GET /english/images/team_hm_header.gif HTTP/1.1" 200 763
-         final File logFile = new File(dataDir, "loglite");
+
+
+         final File logFile = new File(dataDir, "CSC8101-logfile.gz");
 
         final DateFormat dateFormat = new SimpleDateFormat("[dd/MMM/yyyy:HH:mm:ss z]");
 
@@ -78,8 +81,8 @@ public class PartTwo {
 
         try (
                 final FileInputStream fileInputStream = new FileInputStream(logFile);
-                //final GZIPInputStream gzipInputStream = new GZIPInputStream(fileInputStream);
-                final InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
+                final GZIPInputStream gzipInputStream = new GZIPInputStream(fileInputStream);
+                final InputStreamReader inputStreamReader = new InputStreamReader(gzipInputStream);
                 final BufferedReader bufferedReader = new BufferedReader(inputStreamReader)
         ) {
             String line =null;
