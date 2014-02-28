@@ -22,7 +22,7 @@ public class PartTwo {
     private static Cluster cluster;
     private static Session session;
     long i=0,j=0;
-    private PreparedStatement insertPs;
+    private PreparedStatement insertPs,queryPs;
     private Map<String, SiteSession> sessions = new LinkedHashMap<>();
 
 
@@ -50,7 +50,7 @@ public class PartTwo {
     public void read()throws IOException, ParseException{
         PartTwo.staticSetup();
         insertPs=session.prepare("INSERT INTO parttwo_data_table (clientId,starttime,endtime,totalhit,totalurl) VALUES (?, ?, ?, ?, ?)");
-
+        queryPs=session.prepare("SELECT * FROM parttwo_data_table WHERE clientId=?");
         HashMap<String,SiteSession> sessions = new LinkedHashMap<String,SiteSession>() {
             protected boolean removeEldestEntry(Map.Entry eldest) {
                 SiteSession siteSession = (SiteSession)eldest.getValue();
@@ -135,5 +135,8 @@ public class PartTwo {
         }
 
 
+    }
+    public void query(int clientId){
+        session.execute(new BoundStatement(queryPs).bind(clientId));
     }
 }

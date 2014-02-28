@@ -10,7 +10,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class ReadBuffer {
-
+    // read line of the document and insert in to database.
 
     private final File dataDir = new File("/home/xwen/Downloads");
     // 1,352,794,346 lines, 13050324662bytes (13G), md5sum=b7089321366fe6f8131196b81d060c5d
